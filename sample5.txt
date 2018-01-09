@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 this is the fifth sample file to test git 
+=======
+this is the fifth sample file to test git .. modified to see changes in firstbranch
+>>>>>>> firstbranch
