@@ -4,4 +4,6 @@ pool:
 
 steps:
 - script: sh 'git 'https://github.com/SrujanRajDev/test-git-project.git'
-  displayName: Say hello
+steps:
+- script: sh 'git 'https://github.com/SrujanRajDev/Visible.git'
+ 
