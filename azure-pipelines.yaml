@@ -5,8 +5,8 @@ pool:
 steps:
 - task: Checkout@2
   displayName: Checkout code
-  trigger:
-  - master
+#  trigger:
+#  - master
   
   strategy:
     matrix:
