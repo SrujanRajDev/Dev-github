@@ -3,14 +3,5 @@ pool:
   demands: maven
 
 steps:
-- task: Checkout@2
-  displayName: Checkout code
-#  trigger:
-#  - master
-#  strategy:
-#    matrix:
-      git checkout@1:
-        sh: 'git checkout https://github.com/SrujanRajDev/test-git-project.git'
-      git checout@2:
-        sh: 'git checkout https://github.com/SrujanRajDev/Dev-github.git'
-    maxParallel: 2
+- script: sh 'git 'https://github.com/SrujanRajDev/test-git-project.git'
+  displayName: Say hello
